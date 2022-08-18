@@ -1,0 +1,24 @@
+PODS:
+  - FPSCounter (4.1.0)
+  - GoogleMaps (7.0.0):
+    - GoogleMaps/Maps (= 7.0.0)
+  - GoogleMaps/Base (7.0.0)
+  - GoogleMaps/Maps (7.0.0):
+    - GoogleMaps/Base
+
+DEPENDENCIES:
+  - FPSCounter (~> 4.1)
+  - GoogleMaps (= 7.0.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FPSCounter
+    - GoogleMaps
+
+SPEC CHECKSUMS:
+  FPSCounter: 884afec377de66637808c4f52ecc3b85a404732b
+  GoogleMaps: 6e9c923ca035989709fcb5771544fda4cc5fa2a4
+
+PODFILE CHECKSUM: 74ac74cfee691816610caafeb4a314b27f511d62
+
+COCOAPODS: 1.11.2

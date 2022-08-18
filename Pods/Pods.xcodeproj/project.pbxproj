@@ -1,0 +1,700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		08417F39E1B92A6D2ABEF8EC9323F517 /* Pods-MapsStressTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8430529F61E945CC6D4F9EF16E0CFEFE /* Pods-MapsStressTest-dummy.m */; };
+		15327A3A1CCE9B3306C6FCB3B2F37929 /* FPSCounter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0DC8F11B7B32FE5CC962F7B1FE5E14 /* FPSCounter-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		266B33C5B5A7BE2AFC939D69F2119973 /* FPSCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F57A5252842738840345C97CBD3C3F /* FPSCounter.swift */; };
+		3922C78DEABF9EDED58541751B8B114B /* FPSStatusBarWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16C486EF92735572959FDC1837ED83A /* FPSStatusBarWindow.swift */; };
+		4FF6E632C7633923B43D4DE169F0D1B2 /* Pods-MapsStressTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAC4A734E23D391BD42331CA6276CB8F /* Pods-MapsStressTest-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5FCDD501B6BF7AFF4931CC952B7C021E /* FPSStatusBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C43C6835E1E939ED8CC46C63625FF7 /* FPSStatusBarViewController.swift */; };
+		9D98B97B9542E66339DF508BFD00BA35 /* FPSCounter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8E281CAB64F23A2E2DE5A7974FF8D2 /* FPSCounter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BBCE6AE29105E481366B5C6CEE9C0275 /* FPSCounter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6DC9C725DEC8D2389B3088512748D1 /* FPSCounter-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		330D55739840806C8F1A01613458FD0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		8D3BB70BF06258852ABE882D1FE401D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 161E8ACDC0C940AF4EFB36E8BA6B82AC;
+			remoteInfo = FPSCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B4C7F19DCDCBB45E0BECF14373E379 /* Pods-MapsStressTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MapsStressTest.modulemap"; sourceTree = "<group>"; };
+		0E5D187C562D452FBDDF2345C9BDEAC3 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		2B19D075A018319515729BF54E148DB5 /* FPSCounter */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = FPSCounter; path = libFPSCounter.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		331A9F26C09B54231B9E228B5D434B4E /* Pods-MapsStressTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapsStressTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		33B07F5CEF2F0E2719B6B183CC382513 /* Pods-MapsStressTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapsStressTest.release.xcconfig"; sourceTree = "<group>"; };
+		35B4A7F86070002599B1A1641F1B792E /* Pods-MapsStressTest */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-MapsStressTest"; path = "libPods-MapsStressTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0DC8F11B7B32FE5CC962F7B1FE5E14 /* FPSCounter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FPSCounter-umbrella.h"; sourceTree = "<group>"; };
+		3F3DDF448BE41CD8C0BFDF071BABB5BD /* Pods-MapsStressTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapsStressTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		44C43C6835E1E939ED8CC46C63625FF7 /* FPSStatusBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPSStatusBarViewController.swift; path = Sources/FPSStatusBarViewController.swift; sourceTree = "<group>"; };
+		4520E49666EB324E3EF0A855A0DD4A83 /* FPSCounter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FPSCounter-prefix.pch"; sourceTree = "<group>"; };
+		465F52D0470FF7A53091583DABBF707A /* Pods-MapsStressTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapsStressTest.debug.xcconfig"; sourceTree = "<group>"; };
+		4741B94C78AAC0F942CF8711C944E12C /* FPSCounter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FPSCounter.debug.xcconfig; sourceTree = "<group>"; };
+		4E3ACC327FA3D314301FE6B543B71F95 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		56F57A5252842738840345C97CBD3C3F /* FPSCounter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPSCounter.swift; path = Sources/FPSCounter.swift; sourceTree = "<group>"; };
+		60515F8653C89FC633ED871FA35534E7 /* FPSCounter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FPSCounter.modulemap; sourceTree = "<group>"; };
+		8430529F61E945CC6D4F9EF16E0CFEFE /* Pods-MapsStressTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapsStressTest-dummy.m"; sourceTree = "<group>"; };
+		8D6DC9C725DEC8D2389B3088512748D1 /* FPSCounter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FPSCounter-dummy.m"; sourceTree = "<group>"; };
+		99122F03B39E30346156506297E03F0F /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		9C8E281CAB64F23A2E2DE5A7974FF8D2 /* FPSCounter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FPSCounter.h; path = Sources/FPSCounter.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BAC4A734E23D391BD42331CA6276CB8F /* Pods-MapsStressTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MapsStressTest-umbrella.h"; sourceTree = "<group>"; };
+		D7B8A27CD6DCE393B84279C85E76D13B /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		DAC0D5DF2EC3C8272625F2A7CEC87FAD /* Pods-MapsStressTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapsStressTest-resources.sh"; sourceTree = "<group>"; };
+		EBFD3E60B800ECD4F5D864E44C9F1472 /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
+		F1047863D15B2567F5DE33F57668E69F /* FPSCounter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FPSCounter.release.xcconfig; sourceTree = "<group>"; };
+		F16C486EF92735572959FDC1837ED83A /* FPSStatusBarWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FPSStatusBarWindow.swift; path = Sources/FPSStatusBarWindow.swift; sourceTree = "<group>"; };
+		FA58E9DB22236248AD8F89105C63BDC2 /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		601837CE57151E4ACE0C961522436F55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D63B860F9407AE31FD3DBD79DFA3294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0991D4431BDFB37684CAB392A64ED432 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0DCA8CD55114E0DD797F432FE497218 /* FPSCounter */,
+				EB343525053EC1A30C69D24AAAFBD23E /* GoogleMaps */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3EBE9E7B0223630AA8227ACE3ACDB1A6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E46670653ED4A30DEB88BD01423FA51C /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		4ACF4B27EEED24D6D79955E36BDBECD1 /* Pods-MapsStressTest */ = {
+			isa = PBXGroup;
+			children = (
+				02B4C7F19DCDCBB45E0BECF14373E379 /* Pods-MapsStressTest.modulemap */,
+				3F3DDF448BE41CD8C0BFDF071BABB5BD /* Pods-MapsStressTest-acknowledgements.markdown */,
+				331A9F26C09B54231B9E228B5D434B4E /* Pods-MapsStressTest-acknowledgements.plist */,
+				8430529F61E945CC6D4F9EF16E0CFEFE /* Pods-MapsStressTest-dummy.m */,
+				DAC0D5DF2EC3C8272625F2A7CEC87FAD /* Pods-MapsStressTest-resources.sh */,
+				BAC4A734E23D391BD42331CA6276CB8F /* Pods-MapsStressTest-umbrella.h */,
+				465F52D0470FF7A53091583DABBF707A /* Pods-MapsStressTest.debug.xcconfig */,
+				33B07F5CEF2F0E2719B6B183CC382513 /* Pods-MapsStressTest.release.xcconfig */,
+			);
+			name = "Pods-MapsStressTest";
+			path = "Target Support Files/Pods-MapsStressTest";
+			sourceTree = "<group>";
+		};
+		53BA809A0B4622CE2B521F09C66A8690 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4ACF4B27EEED24D6D79955E36BDBECD1 /* Pods-MapsStressTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5F08C13A0EED14E59EC7B6D3541E0656 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA58E9DB22236248AD8F89105C63BDC2 /* GoogleMaps.debug.xcconfig */,
+				EBFD3E60B800ECD4F5D864E44C9F1472 /* GoogleMaps.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		7235536F811ED211219082898D2E4F76 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				DDE12A884B02ADA95AAE792F99EC6FA2 /* Frameworks */,
+				A5262733A929BD79FF7434AB4B99DFBA /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		9F433D6644582E84B7B724F80229638C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B19D075A018319515729BF54E148DB5 /* FPSCounter */,
+				35B4A7F86070002599B1A1641F1B792E /* Pods-MapsStressTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0DCA8CD55114E0DD797F432FE497218 /* FPSCounter */ = {
+			isa = PBXGroup;
+			children = (
+				9C8E281CAB64F23A2E2DE5A7974FF8D2 /* FPSCounter.h */,
+				56F57A5252842738840345C97CBD3C3F /* FPSCounter.swift */,
+				44C43C6835E1E939ED8CC46C63625FF7 /* FPSStatusBarViewController.swift */,
+				F16C486EF92735572959FDC1837ED83A /* FPSStatusBarWindow.swift */,
+				F3182C7C6D27E418329F4AD628D04CC6 /* Support Files */,
+			);
+			name = FPSCounter;
+			path = FPSCounter;
+			sourceTree = "<group>";
+		};
+		A5262733A929BD79FF7434AB4B99DFBA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E5D187C562D452FBDDF2345C9BDEAC3 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				0991D4431BDFB37684CAB392A64ED432 /* Pods */,
+				9F433D6644582E84B7B724F80229638C /* Products */,
+				53BA809A0B4622CE2B521F09C66A8690 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDE12A884B02ADA95AAE792F99EC6FA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7B8A27CD6DCE393B84279C85E76D13B /* GoogleMaps.framework */,
+				99122F03B39E30346156506297E03F0F /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E46670653ED4A30DEB88BD01423FA51C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E3ACC327FA3D314301FE6B543B71F95 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB343525053EC1A30C69D24AAAFBD23E /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				3EBE9E7B0223630AA8227ACE3ACDB1A6 /* Base */,
+				7235536F811ED211219082898D2E4F76 /* Maps */,
+				5F08C13A0EED14E59EC7B6D3541E0656 /* Support Files */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		F3182C7C6D27E418329F4AD628D04CC6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				60515F8653C89FC633ED871FA35534E7 /* FPSCounter.modulemap */,
+				8D6DC9C725DEC8D2389B3088512748D1 /* FPSCounter-dummy.m */,
+				4520E49666EB324E3EF0A855A0DD4A83 /* FPSCounter-prefix.pch */,
+				3F0DC8F11B7B32FE5CC962F7B1FE5E14 /* FPSCounter-umbrella.h */,
+				4741B94C78AAC0F942CF8711C944E12C /* FPSCounter.debug.xcconfig */,
+				F1047863D15B2567F5DE33F57668E69F /* FPSCounter.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FPSCounter";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5B5D49441296A159FB2E17A60C6C647D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D98B97B9542E66339DF508BFD00BA35 /* FPSCounter.h in Headers */,
+				15327A3A1CCE9B3306C6FCB3B2F37929 /* FPSCounter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2630FCCC76609A28F9DC2586A36D347 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF6E632C7633923B43D4DE169F0D1B2 /* Pods-MapsStressTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		161E8ACDC0C940AF4EFB36E8BA6B82AC /* FPSCounter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56EFEF04F70B72BC82A179BA55097B02 /* Build configuration list for PBXNativeTarget "FPSCounter" */;
+			buildPhases = (
+				5B5D49441296A159FB2E17A60C6C647D /* Headers */,
+				1B7B3ECD30A77800D9D3FE886F81130F /* Sources */,
+				6D63B860F9407AE31FD3DBD79DFA3294 /* Frameworks */,
+				A165250FC3AEAC317D69D5914DD442C7 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FPSCounter;
+			productName = FPSCounter;
+			productReference = 2B19D075A018319515729BF54E148DB5 /* FPSCounter */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B2C5559FDAFE0DCFDE5BE14D336964C1 /* Pods-MapsStressTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1881CB54538F832C89B509269045178A /* Build configuration list for PBXNativeTarget "Pods-MapsStressTest" */;
+			buildPhases = (
+				D2630FCCC76609A28F9DC2586A36D347 /* Headers */,
+				DAA55EE312196DF5162097C56265E815 /* Sources */,
+				601837CE57151E4ACE0C961522436F55 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13C922F6D8680F753925D3C70DD8246C /* PBXTargetDependency */,
+				048B61834DF30F44A53F8A4D289E216B /* PBXTargetDependency */,
+			);
+			name = "Pods-MapsStressTest";
+			productName = "Pods-MapsStressTest";
+			productReference = 35B4A7F86070002599B1A1641F1B792E /* Pods-MapsStressTest */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9F433D6644582E84B7B724F80229638C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				161E8ACDC0C940AF4EFB36E8BA6B82AC /* FPSCounter */,
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				B2C5559FDAFE0DCFDE5BE14D336964C1 /* Pods-MapsStressTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A165250FC3AEAC317D69D5914DD442C7 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/FPSCounter/FPSCounter.modulemap",
+				"${PODS_ROOT}/Headers/Public/FPSCounter/FPSCounter-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/FPSCounter-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/FPSCounter/FPSCounter.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/FPSCounter/FPSCounter-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B7B3ECD30A77800D9D3FE886F81130F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				266B33C5B5A7BE2AFC939D69F2119973 /* FPSCounter.swift in Sources */,
+				BBCE6AE29105E481366B5C6CEE9C0275 /* FPSCounter-dummy.m in Sources */,
+				5FCDD501B6BF7AFF4931CC952B7C021E /* FPSStatusBarViewController.swift in Sources */,
+				3922C78DEABF9EDED58541751B8B114B /* FPSStatusBarWindow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA55EE312196DF5162097C56265E815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08417F39E1B92A6D2ABEF8EC9323F517 /* Pods-MapsStressTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		048B61834DF30F44A53F8A4D289E216B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 330D55739840806C8F1A01613458FD0D /* PBXContainerItemProxy */;
+		};
+		13C922F6D8680F753925D3C70DD8246C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FPSCounter;
+			target = 161E8ACDC0C940AF4EFB36E8BA6B82AC /* FPSCounter */;
+			targetProxy = 8D3BB70BF06258852ABE882D1FE401D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0657E6247C7E8744275AACEBAB511440 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA58E9DB22236248AD8F89105C63BDC2 /* GoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C9251DCFECA44D4B791D3202750BA16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 465F52D0470FF7A53091583DABBF707A /* Pods-MapsStressTest.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MapsStressTest/Pods-MapsStressTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38C1A70F85641DE0711CA801A230B966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4741B94C78AAC0F942CF8711C944E12C /* FPSCounter.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FPSCounter/FPSCounter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/FPSCounter/FPSCounter.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FPSCounter;
+				PRODUCT_NAME = FPSCounter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C7B4FC6D761BE1A2A0CB99CD2A636091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33B07F5CEF2F0E2719B6B183CC382513 /* Pods-MapsStressTest.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MapsStressTest/Pods-MapsStressTest.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC690621027EA58B5D021A1004DD63B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBFD3E60B800ECD4F5D864E44C9F1472 /* GoogleMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8283C1A3AED961D96341885F336822D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1047863D15B2567F5DE33F57668E69F /* FPSCounter.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FPSCounter/FPSCounter-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/FPSCounter/FPSCounter.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FPSCounter;
+				PRODUCT_NAME = FPSCounter;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1881CB54538F832C89B509269045178A /* Build configuration list for PBXNativeTarget "Pods-MapsStressTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C9251DCFECA44D4B791D3202750BA16 /* Debug */,
+				C7B4FC6D761BE1A2A0CB99CD2A636091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0657E6247C7E8744275AACEBAB511440 /* Debug */,
+				EC690621027EA58B5D021A1004DD63B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56EFEF04F70B72BC82A179BA55097B02 /* Build configuration list for PBXNativeTarget "FPSCounter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38C1A70F85641DE0711CA801A230B966 /* Debug */,
+				F8283C1A3AED961D96341885F336822D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

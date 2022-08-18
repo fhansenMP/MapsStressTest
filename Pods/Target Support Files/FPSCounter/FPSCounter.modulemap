@@ -1,0 +1,6 @@
+module FPSCounter {
+  umbrella header "FPSCounter-umbrella.h"
+
+  export *
+  module * { export * }
+}

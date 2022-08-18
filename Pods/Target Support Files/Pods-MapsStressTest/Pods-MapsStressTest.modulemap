@@ -1,0 +1,6 @@
+module Pods_MapsStressTest {
+  umbrella header "Pods-MapsStressTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
